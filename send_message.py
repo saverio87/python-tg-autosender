@@ -34,7 +34,7 @@ async def send_template_b(chat):
 
     if prod:
         try:
-            await client.send_message(chat, "I'm gay")
+            await client.send_message(chat, "Hi there")
         except:
             pass
 
@@ -48,7 +48,7 @@ async def send_template_c(chat):
 
     if prod:
         try:
-            await client.send_message(chat, "I got rekt")
+            await client.send_message(chat, "I'm so happy to be in this group")
         except:
             pass
 
